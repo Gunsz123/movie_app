@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Example using Tailwind CSS dark mode variant */
+/* Add dark: prefix to your styles to apply them in dark mode */
+
+body.dark {
+  background-color: #1a1a1a;
+}
+
+/* Or manually toggle dark mode classes on specific elements */
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+.container {
+  @apply mx-auto max-w-sm  md:max-w-[768px] lg:max-w-[1024px] 2xl:max-w-[1536px] sm:px-16 px-6;
+}
